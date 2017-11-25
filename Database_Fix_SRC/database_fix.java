@@ -1,7 +1,7 @@
 /*
 *  Database Fixer for Handwritten Names Dataset 
 *  Copyright (c) 2017 Iker García and Eritz Yerga
-*  https://github.com/ikergarcia1996/Handwritten-Text-Recognition
+*  https://github.com/ikergarcia1996/Handwritten-Names-Recognition
 */
 
 import java.io.BufferedReader;
