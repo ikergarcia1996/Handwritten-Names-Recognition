@@ -16,10 +16,10 @@ To run this project you need [Python](https://www.python.org/) and [Jupyter Note
 Also you will need to install all the python libraries specified in the "README.md" inside the "Notebook" folder.
 
 ## Documentation
-Documentation is available in the [releases section](https://github.com/eritzyg/KartAI/releases) with the corresponding release.
+Documentation is available in the [releases section](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/releases) with the corresponding release.
 
 ## Process for recognition
-You can find a detailed explanation of this process in the documentation.
+You can find a detailed explanation of this process in the [documentation](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/releases).
 ![Process](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/blob/master/DemoImages/Process.png)
 
 ## Pre downloaded dataset and Pre trained classifiers
