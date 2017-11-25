@@ -1,5 +1,4 @@
 # Handwitten names recognition using ANNs notebook:
-***
 ### Authors:
 ```
 Iker García
