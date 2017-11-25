@@ -13,7 +13,7 @@ For this project we used the [Transcriptions of names from handwriting](https://
 
 ## How to run
 To run this project you need [Python](https://www.python.org/) and [Jupyter Notebook](http://jupyter.org/).
-Also you will need to install all the python libraries specified in the "Read.me" inside the "Notebook" folder.
+Also you will need to install all the python libraries specified in the "README.md" inside the "Notebook" folder.
 
 ## Documentation
 Documentation is available in the [releases section](https://github.com/eritzyg/KartAI/releases) with the corresponding release.
