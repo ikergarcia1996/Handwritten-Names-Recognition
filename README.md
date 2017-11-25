@@ -9,7 +9,7 @@ Iker García Ferrero - ikergarcia1996
 Eritz Yerga Gutierrez - eritzyg
 ```
 ## Dataset
-For this project we used the [Transcriptions of names from handwriting](https://www.crowdflower.com/data-for-everyone/) dataset from [Data for Everyone](https://www.crowdflower.com/data-for-everyone/)
+For this project we used the [Transcriptions of names from handwriting](https://www.crowdflower.com/data-for-everyone/) dataset from [Data for Everyone](https://www.crowdflower.com/data-for-everyone/).
 
 ## How to run
 To run this project you need [Python](https://www.python.org/) and [Jupyter Notebook](http://jupyter.org/).
@@ -23,4 +23,4 @@ You can find a detailed explanation of this process in the documentation.
 ![Process](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/blob/master/DemoImages/Process.png)
 
 ## Pre downloaded dataset and Pre trained classifiers
-To facilitate the usage of the program, a database with 10000 images and the pre trained classifiers are included. The documentation explains how to load them or how to generate new ones
+To facilitate the usage of the program, a database with 10000 images and the pre trained classifiers are included. The documentation explains how to load them or how to generate new ones.
