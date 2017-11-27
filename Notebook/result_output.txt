@@ -1,0 +1,193 @@
+Train size (images): 27933
+Test size (images): 6984
+
+Train size (characters): 154447
+Test size (characters): 38578
+
+MLP classification using RBM features:
+             precision    recall  f1-score   support
+
+                  0.00      0.00      0.00        42
+          -       0.54      0.29      0.38        68
+          A       0.93      0.93      0.93      5502
+          B       0.75      0.81      0.77       384
+          C       0.92      0.88      0.90      1163
+          D       0.76      0.86      0.80       585
+          E       0.93      0.95      0.94      5197
+          F       0.68      0.53      0.59       180
+          G       0.86      0.85      0.86       407
+          H       0.81      0.81      0.81      1185
+          I       0.89      0.90      0.90      3512
+          J       0.87      0.88      0.87       403
+          K       0.82      0.83      0.82       165
+          L       0.94      0.95      0.94      3420
+          M       0.85      0.86      0.86      1965
+          N       0.91      0.92      0.92      3601
+          O       0.92      0.89      0.91      2208
+          P       0.87      0.72      0.79       391
+          Q       0.62      0.62      0.62        50
+          R       0.88      0.89      0.89      1898
+          S       0.96      0.94      0.95      1632
+          T       0.93      0.92      0.93      1784
+          U       0.91      0.92      0.91      1325
+          V       0.87      0.81      0.84       366
+          W       0.87      0.68      0.76       106
+          X       0.92      0.90      0.91       315
+          Y       0.91      0.89      0.90       573
+          Z       0.87      0.83      0.85       151
+
+avg / total       0.90      0.90      0.90     38578
+
+
+HOG + MLP classification:
+             precision    recall  f1-score   support
+
+                  0.00      0.00      0.00        42
+          -       0.50      0.19      0.28        68
+          A       0.91      0.91      0.91      5502
+          B       0.86      0.58      0.69       384
+          C       0.92      0.87      0.89      1163
+          D       0.73      0.75      0.74       585
+          E       0.93      0.92      0.93      5197
+          F       0.46      0.67      0.55       180
+          G       0.82      0.79      0.80       407
+          H       0.74      0.81      0.77      1185
+          I       0.87      0.90      0.89      3512
+          J       0.68      0.84      0.75       403
+          K       0.87      0.57      0.69       165
+          L       0.93      0.95      0.94      3420
+          M       0.84      0.80      0.82      1965
+          N       0.90      0.89      0.90      3601
+          O       0.87      0.89      0.88      2208
+          P       0.80      0.77      0.79       391
+          Q       0.48      0.54      0.51        50
+          R       0.78      0.86      0.82      1898
+          S       0.93      0.92      0.92      1632
+          T       0.95      0.86      0.90      1784
+          U       0.85      0.90      0.87      1325
+          V       0.79      0.75      0.77       366
+          W       0.71      0.66      0.68       106
+          X       0.90      0.80      0.84       315
+          Y       0.89      0.83      0.86       573
+          Z       0.90      0.76      0.82       151
+
+avg / total       0.88      0.88      0.88     38578
+
+
+PCA + MLP classification:
+             precision    recall  f1-score   support
+
+                  0.04      0.02      0.03        42
+          -       0.45      0.25      0.32        68
+          A       0.93      0.94      0.94      5502
+          B       0.84      0.79      0.82       384
+          C       0.93      0.90      0.91      1163
+          D       0.84      0.85      0.85       585
+          E       0.94      0.94      0.94      5197
+          F       0.62      0.67      0.65       180
+          G       0.86      0.89      0.87       407
+          H       0.85      0.82      0.83      1185
+          I       0.89      0.91      0.90      3512
+          J       0.87      0.85      0.86       403
+          K       0.80      0.80      0.80       165
+          L       0.94      0.95      0.94      3420
+          M       0.87      0.87      0.87      1965
+          N       0.93      0.92      0.92      3601
+          O       0.93      0.91      0.92      2208
+          P       0.87      0.84      0.85       391
+          Q       0.76      0.52      0.62        50
+          R       0.90      0.91      0.90      1898
+          S       0.94      0.94      0.94      1632
+          T       0.93      0.90      0.92      1784
+          U       0.91      0.92      0.91      1325
+          V       0.81      0.85      0.83       366
+          W       0.67      0.87      0.75       106
+          X       0.90      0.90      0.90       315
+          Y       0.89      0.87      0.88       573
+          Z       0.91      0.83      0.87       151
+
+avg / total       0.91      0.91      0.91     38578
+
+
+MLP only classification:
+             precision    recall  f1-score   support
+
+                  0.00      0.00      0.00        42
+          -       0.70      0.31      0.43        68
+          A       0.94      0.95      0.94      5502
+          B       0.85      0.82      0.84       384
+          C       0.91      0.91      0.91      1163
+          D       0.79      0.88      0.83       585
+          E       0.94      0.95      0.94      5197
+          F       0.68      0.64      0.66       180
+          G       0.85      0.89      0.87       407
+          H       0.86      0.82      0.84      1185
+          I       0.91      0.92      0.91      3512
+          J       0.91      0.87      0.89       403
+          K       0.81      0.82      0.82       165
+          L       0.96      0.94      0.95      3420
+          M       0.87      0.89      0.88      1965
+          N       0.94      0.93      0.93      3601
+          O       0.92      0.91      0.92      2208
+          P       0.87      0.81      0.84       391
+          Q       0.67      0.68      0.67        50
+          R       0.90      0.89      0.89      1898
+          S       0.95      0.94      0.94      1632
+          T       0.93      0.93      0.93      1784
+          U       0.89      0.94      0.91      1325
+          V       0.87      0.85      0.86       366
+          W       0.83      0.77      0.80       106
+          X       0.91      0.94      0.92       315
+          Y       0.91      0.93      0.92       573
+          Z       0.83      0.91      0.87       151
+
+avg / total       0.92      0.92      0.92     38578
+
+
+
+Full name test results: 
+========================================================================
+| Classifier            | Correct percentage      | Correlation ratio  |
+========================================================================
+| MLP with RBM features | 0.6335554209569958     | 0.9143416481544472 |
+========================================================================
+| MLP with HOG features | 0.5548152634766808     | 0.8887219826194953 |
+========================================================================
+| MLP with PCA features | 0.6624772864930345     | 0.9214065824482679 |
+========================================================================
+| MLP only              | 0.6844336765596608     | 0.9271062743598486 |
+========================================================================
+
+> Real label: JULIE
+MLP with RBM features predicted: JULIE
+MLP with HOG features predicted: JULIE
+MLP with PCA features predicted: SULIE
+MLP predicted: JULIE
+
+
+> Real label: JULIE
+MLP with RBM features predicted: JULIE
+MLP with HOG features predicted: JULIE
+MLP with PCA features predicted: JULIE
+MLP predicted: JULIE
+
+
+> Real label: ROXANNE
+MLP with RBM features predicted: ROXANNE
+MLP with HOG features predicted: ROXANNE
+MLP with PCA features predicted: ROXANNE
+MLP predicted: ROXANNE
+
+
+> Real label: CHLOE
+MLP with RBM features predicted: CHLOE
+MLP with HOG features predicted: CHLOE
+MLP with PCA features predicted: CHLOE
+MLP predicted: CHLOE
+
+
+> Real label: DORIAN
+MLP with RBM features predicted: DORIAN
+MLP with HOG features predicted: DORIAN
+MLP with PCA features predicted: DORIAN
+MLP predicted: DORIAN
