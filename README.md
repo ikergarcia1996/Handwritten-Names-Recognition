@@ -22,5 +22,10 @@ Documentation is available in the [releases section](https://github.com/ikergarc
 You can find a detailed explanation of this process in the [documentation](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/releases).
 ![Process](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/blob/master/DemoImages/Process.png)
 
+##Results
+![NN results](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/blob/master/DemoImages/R1.PNG)
+![Full Names results](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/blob/master/DemoImages/R2.PNG)
+
+
 ## Pre downloaded dataset and Pre trained classifiers
 To facilitate the usage of the program, a database with 10000 images and the pre trained classifiers are included. The documentation explains how to load them or how to generate new ones.
