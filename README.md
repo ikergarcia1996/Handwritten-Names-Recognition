@@ -22,7 +22,7 @@ Documentation is available in the [releases section](https://github.com/ikergarc
 You can find a detailed explanation of this process in the [documentation](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/releases).
 ![Process](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/blob/master/DemoImages/Process.png)
 
-##Results
+## Results
 ![NN results](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/blob/master/DemoImages/R1.PNG)
 ![Full Names results](https://github.com/ikergarcia1996/Handwritten-Names-Recognition/blob/master/DemoImages/R2.PNG)
 
